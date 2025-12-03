@@ -8,6 +8,7 @@ import SignIn from '@/pages/sign-in'; // 로그인 페이지
 import SignUp from '@/pages/sign-up'; // 회원가입 페이지
 import RootLayout from './layout.tsx';
 import { ThemeProvider } from './components/theme-provider.tsx';
+import CreateToptic from './pages/topics/create.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -20,6 +21,8 @@ createRoot(document.getElementById('root')!).render(
             {/* <Route path='about' element={<About />} /> */}
             <Route path='sign-up' element={<SignUp />} />
             <Route path='sign-in' element={<SignIn />} />
+            <Route path='topics/create' element={<CreateToptic />} />
+            
           </Route>
         </Routes>
       </BrowserRouter>
