@@ -1,1 +1,3 @@
-export { Skeleton } from "./ui/skeleton";
+export { Skeleton } from "./skeleton";
+export { Separator } from "./separator";
+export { Button, buttonVariants } from "./button";
